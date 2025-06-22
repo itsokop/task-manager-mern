@@ -45,7 +45,7 @@ DELETE	                    /api/tasks/:id	                Delete task	          
 
 -----------------------------------------------------------------------------------------------
 
-Deployment (Vercel)
+Deployment (Vercel) :- also tried heroku but asking for credit card details and unable to procced there.
 
 ## Domain Configuration
 After deployment, your backend will be assigned a random Vercel URL (e.g., `task-management-backend-rouge.vercel.app`). To customize it:
