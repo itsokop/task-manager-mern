@@ -15,7 +15,7 @@ const LoginForm = () => {
         className="w-full p-3 mb-4 rounded bg-white bg-opacity-20 text-white placeholder-white focus:outline-none"
       />
 
-      <label className="block text-sm mb-1 text-left">Password</label>
+      <label className="block text-sm mb-1 text-left">Password checking vercel</label>
       <input
         type="password"
         placeholder="Min 8 characters"
