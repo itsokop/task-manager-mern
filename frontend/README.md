@@ -1,12 +1,44 @@
-# React + Vite
+# Task Manager SPA (React.js / Next.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Single Page Application (SPA)** built using **React.js / Next.js**, focused on user authentication and task management. It features a clean and responsive UI styled with **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## Current Status
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive **Login Page** created using React.js / Next.js.
+- Tailwind CSS integrated for styling.
 
-## Expanding the ESLint configuration
+> The application is currently under development. Only the login page is complete so far.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features (Planned)
+
+### Authentication
+
+- [ ] Sign-up page for new users (email & password).
+- [ ] Login page for existing users.
+- [ ] JWT token handling (store in local storage or cookies).
+
+### Task Management (For Logged-in Users Only)
+
+- [ ] Add new tasks (task name, description, due date).
+- [ ] View list of personal tasks.
+- [ ] Edit or delete tasks.
+- [ ] Auto-redirect unauthenticated users to the login page.
+
+---
+
+## Input Validation
+
+- [ ] Task name and due date are required fields.
+- [ ] Email and password fields validated on login/sign-up.
+
+---
+
+## Tech Stack
+
+- **Framework:** React.js /vite
+- **Styling:** Tailwind CSS
+- **Authentication:** JWT (JSON Web Tokens)
+
+---
